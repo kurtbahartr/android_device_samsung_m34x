@@ -21,9 +21,6 @@ include vendor/samsung/gta4xl/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/gta4xl
 
-## APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
 
