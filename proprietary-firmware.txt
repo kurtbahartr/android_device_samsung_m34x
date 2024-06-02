@@ -1,4 +1,4 @@
-# Firmware for model SM-P615 - from Samsung package version P615XXS7FXA1
+# Firmware for model SM-P615 - from Samsung package version P615XXS8FXE4
 
 cm.bin_SM-P615
 keystorage.bin_SM-P615
