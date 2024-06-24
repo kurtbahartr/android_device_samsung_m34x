@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_a25x.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_a25x-eng \
-    lineage_a25x-user \
-    lineage_a25x-userdebug
