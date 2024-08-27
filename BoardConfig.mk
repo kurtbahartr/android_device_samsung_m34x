@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2021 The LineageOS Project
+# Copyright (C) 2020-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/gta4xl-common/BoardConfigCommon.mk
+include device/samsung/gta4xls-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/gta4xl/BoardConfigVendor.mk
+include vendor/samsung/gta4xls/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/gta4xl
+DEVICE_PATH := device/samsung/gta4xls
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
+TARGET_KERNEL_CONFIG := s5e8825-gta4xls_defconfig
 
 ## Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4xl.mk
+    $(LOCAL_DIR)/lineage_gta4xls.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gta4xl-eng \
-    lineage_gta4xl-user \
-    lineage_gta4xl-userdebug
+    lineage_gta4xls-eng \
+    lineage_gta4xls-user \
+    lineage_gta4xls-userdebug
