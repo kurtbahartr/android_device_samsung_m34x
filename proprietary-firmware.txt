@@ -1,14 +1,18 @@
-# Firmware for model SM-P615 - from Samsung package version P615XXS8FXE4
+# Firmware for model SM-P625 - from Samsung package version P625XXS3AXH2
 
-cm.bin_SM-P615
-keystorage.bin_SM-P615
-modem.bin_SM-P615
-modem_debug.bin_SM-P615
-sboot.bin_SM-P615
-uh.bin_SM-P615
-up_param.bin_SM-P615
+fld.bin_SM-P625
+harx.bin_SM-P625
+keystorage.bin_SM-P625
+ldfw.img_SM-P625
+modem.bin_SM-P625
+modem_debug.bin_SM-P625
+sboot.bin_SM-P625
+tzsw.img_SM-P625
+tzar.img_SM-P625
+uh.bin_SM-P625
+up_param.bin_SM-P625
 
 # File containing the supported models, one per line
 models
 # Files containing Samsung package version for supported models
-version_SM-P615
+version_SM-P625
