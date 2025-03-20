@@ -24,8 +24,5 @@ DEVICE_PATH := device/samsung/gta4xls
 ## Kernel
 TARGET_KERNEL_CONFIG := s5e8825-gta4xls_defconfig
 
-## Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
-
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
