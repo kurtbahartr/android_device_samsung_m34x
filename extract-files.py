@@ -1,6 +1,6 @@
 #!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
-# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,12 +14,12 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/samsung/gta4xls-common',
+    'device/samsung/a53x-common',
     'hardware/samsung',
     'hardware/samsung_slsi-linaro/exynos',
     'hardware/samsung_slsi-linaro/graphics',
     'hardware/samsung_slsi-linaro/interfaces',
-    'vendor/samsung/gta4xls-common',
+    'vendor/samsung/a53x-common',
 ]
 
 blob_fixups: blob_fixups_user_type = {
@@ -31,7 +31,7 @@ blob_fixups: blob_fixups_user_type = {
 } # fmt: skip
 
 module = ExtractUtilsModule(
-    'gta4xls',
+    'a53x',
     'samsung',
     namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
@@ -40,6 +40,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'gta4xls-common', module.vendor
+        module, 'a53x-common', module.vendor
     )
     utils.run()

@@ -61,4 +61,10 @@
         <item>"0,1"</item>
     </string-array>
 
+    <!-- The default refresh rate. -->
+    <integer name="config_defaultRefreshRate">120</integer>
+
+    <!-- The default peak refresh rate. -->
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+
 </resources>

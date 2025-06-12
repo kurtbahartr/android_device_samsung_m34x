@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2024 The LineageOS Project
+# Copyright (C) 2020-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/gta4xls-common/BoardConfigCommon.mk
+include device/samsung/a53x-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/gta4xls/BoardConfigVendor.mk
+include vendor/samsung/a53x/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/gta4xls
+DEVICE_PATH := device/samsung/a53x
 
 ## Kernel
-TARGET_KERNEL_CONFIG := s5e8825-gta4xls_defconfig
+TARGET_KERNEL_CONFIG := s5e8825-unified_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
