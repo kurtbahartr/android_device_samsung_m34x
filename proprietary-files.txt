@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version M346BXXU7CXL1, unless pinned
+# Proprietary files - from Samsung package version M346B2XXU7CXL1, unless pinned
 
 # Audio - SoundBooster
 vendor/etc/SoundBoosterParam.txt
@@ -147,7 +147,6 @@ vendor/tee/00000000-0000-0000-0000-4b45594d5354
 vendor/tee/00000000-0000-0000-0000-4d5053545549
 vendor/tee/00000000-0000-0000-0000-4d704e434954
 vendor/tee/00000000-0000-0000-0000-4d70536b566e
-vendor/tee/00000000-0000-0000-0000-4d7073534d43
 vendor/tee/00000000-0000-0000-0000-4d7073617574
 vendor/tee/00000000-0000-0000-0000-505256544545
 vendor/tee/00000000-0000-0000-0000-5345435f4652
@@ -166,7 +165,6 @@ vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/ffffffff-0000-0000-0000-000000000030
-vendor/tee/tui/resolution_common/ID00000100
 
 ## VaultKeeper
 vendor/bin/vaultkeeperd
