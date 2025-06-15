@@ -25,4 +25,4 @@ DEVICE_PATH := device/samsung/a53x
 TARGET_KERNEL_CONFIG := s5e8825-unified_defconfig
 
 ## Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
