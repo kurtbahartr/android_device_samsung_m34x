@@ -21,8 +21,5 @@ include vendor/samsung/a53x/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a53x
 
-## Kernel
-TARGET_KERNEL_CONFIG := s5e8825-unified_defconfig
-
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
