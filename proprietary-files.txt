@@ -20,7 +20,7 @@ vendor/etc/floating_feature.xml
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_chn.bin
 vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_se13.bin
+vendor/etc/plmn_se13_prebuilt.bin
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libvkmanager_vendor.so
 
