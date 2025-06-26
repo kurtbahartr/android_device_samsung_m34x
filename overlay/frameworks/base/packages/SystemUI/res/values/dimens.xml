@@ -20,4 +20,11 @@
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
         relies on this value will not be sized correctly. -->
     <item name="pixel_pitch" format="float" type="dimen">62.72</item>
+  
+    <!-- Status Bar. -->
+    <dimen name="status_bar_padding_start">40px</dimen>
+    <dimen name="status_bar_padding_top">35px</dimen>
+
+    <!-- Physical power button location. -->
+    <dimen name="physical_power_button_center_screen_location_y">1150px</dimen>
 </resources>
