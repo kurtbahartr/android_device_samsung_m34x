@@ -14,15 +14,12 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/a53x-common/BoardConfigCommon.mk
+include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a53x/BoardConfigVendor.mk
+include vendor/samsung/a25x/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a53x
+DEVICE_PATH := device/samsung/a25x
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
-
-# UDFPS
-TARGET_HAS_UDFPS := true

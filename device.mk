@@ -15,17 +15,18 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/a53x-common/common.mk)
+$(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
+$(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
-# Permissions
-PRODUCT_COPY_FILES += \
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlayA25X

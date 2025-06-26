@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-## Inherit from a53x device
-$(call inherit-product, device/samsung/a53x/device.mk)
+## Inherit from a25x device
+$(call inherit-product, device/samsung/a25x/device.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -30,11 +30,11 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a53x
-PRODUCT_NAME := lineage_a53x
+PRODUCT_DEVICE := a25x
+PRODUCT_NAME := lineage_a25x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A536B
+PRODUCT_MODEL := SM-A256E
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 34
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
