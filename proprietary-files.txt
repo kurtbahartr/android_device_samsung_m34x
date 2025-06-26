@@ -85,8 +85,6 @@ vendor/tee/tui/resolution_common/ID00000100
 ## VaultKeeper
 vendor/bin/vaultkeeperd
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
-vendor/etc/init/vaultkeeper_common.rc
-vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
 vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 vendor/lib64/libstork_shared.so
 vendor/lib64/libvkservice.so
