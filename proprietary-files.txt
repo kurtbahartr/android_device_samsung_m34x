@@ -63,6 +63,11 @@ vendor/firmware/txse2.bin
 vendor/firmware/volumemonitor.bin
 vendor/firmware/vts.bin
 
+# Keymint
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/lib64/libskeymint10device.so
+vendor/lib64/libskeymint_cli.so
+
 # Ramdisk firmware
 vendor_ramdisk/vendor/firmware/gt9895_a25x.bin
 vendor_ramdisk/vendor/firmware/ft3519_a25x.bin
