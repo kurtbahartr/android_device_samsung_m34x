@@ -65,6 +65,33 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 
+# Hermes
+system/lib64/libhermes_cred.so:vendor/lib64/libhermes_cred.so
+system/lib64/libhermes_jni.so:vendor/lib64/libhermes_jni.so
+vendor/lib/libhermes.so
+vendor/lib64/libhermes.so
+vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk_platform.so
+vendor/lib64/libhermes_bdbridge.so
+vendor/bin/hw/vendor.samsung.hardware.security.hermes-service
+vendor/bin/hermesd
+vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml
+vendor/etc/init/vendor.samsung.hardware.security.hermes.rc
+vendor/etc/init/hermesd.rc
+
+# Hermes Dependencies
+system/lib/lib_native_client.dk.samsung.so:vendor/lib/lib_native_client.dk.samsung.so
+system/lib64/lib_native_client.dk.samsung.so:vendor/lib64/lib_native_client.dk.samsung.so
+vendor/lib64/libisosechw.so
+vendor/lib64/libhwvault.so
+vendor/lib64/libshctrl.so
+vendor/lib64/libdk_vnd_service_core.so
+system/lib/vendor.samsung.hardware.security.drk@2.0.so:vendor/lib/vendor.samsung.hardware.security.drk@2.0.so
+system/lib/vendor.samsung.hardware.security.drk-V1-ndk.so:vendor/lib/vendor.samsung.hardware.security.drk-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
+vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
+vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
+vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc
+
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
 vendor/lib64/libskeymint10device.so
