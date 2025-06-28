@@ -91,6 +91,7 @@ vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
 vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
 vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc
+vendor/etc/vintf/manifest/manifest_vendor.samsung.hardware.security.drk@2.0-service.default.xml|f55e3cdf8691761056ed93d151244a40befbab8c
 
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
