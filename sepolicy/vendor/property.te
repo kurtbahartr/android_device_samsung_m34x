@@ -1,3 +1,0 @@
-# Hermes
-type vendor_securenvm_prop, property_type;
-type vendor_securehw_prop, property_type;
