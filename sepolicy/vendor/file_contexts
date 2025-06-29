@@ -7,3 +7,8 @@
 /vendor/bin/hw/vendor\.samsung\.hardware\.security\.hermes-service    u:object_r:hal_hermes_default_exec:s0
 /dev/socket/hermes_secnvm                               u:object_r:hermes_socket:s0
 /dev/k250a                                              u:object_r:k250a_device:s0
+
+# Weaver
+/vendor/bin/hw/android\.hardware\.weaver@1\.0-service   u:object_r:hal_weaver_default_exec:s0
+/data/vendor/weaver(/.*)?                               u:object_r:vendor_weaver_data_file:s0
+/mnt/vendor/persist/weaver(/.*)?                        u:object_r:vendor_weaver_data_file:s0

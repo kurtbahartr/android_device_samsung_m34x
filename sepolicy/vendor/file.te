@@ -1,1 +1,3 @@
 type hermes_socket, file_type;
+
+type vendor_weaver_data_file, file_type, data_file_type;
