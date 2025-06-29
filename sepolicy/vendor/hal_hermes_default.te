@@ -1,0 +1,10 @@
+type hal_hermes_default, domain, hal_server_domain;
+type hal_hermes_default_exec, exec_type, file_type, vendor_file_type;
+type hal_hermes_service, service_manager_type;
+
+init_daemon_domain(hal_hermes_default)
+
+add_service(hal_hermes_default, hal_hermes_service)
+
+allow hal_hermes_default hermesd:unix_stream_socket connectto;
+allow hal_hermes_default hermes_socket:sock_file write;

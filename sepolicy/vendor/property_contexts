@@ -1,0 +1,3 @@
+# Property contexts for Hermes
+vendor.securenvm.      u:object_r:vendor_securenvm_prop:s0
+vendor.securehw.       u:object_r:vendor_securehw_prop:s0

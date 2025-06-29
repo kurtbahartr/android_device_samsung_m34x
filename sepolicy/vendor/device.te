@@ -1,0 +1,3 @@
+# Hermes
+type k250a_device, dev_type;
+type ssp_device, dev_type;

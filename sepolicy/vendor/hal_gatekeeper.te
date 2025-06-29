@@ -1,0 +1,2 @@
+allow hal_gatekeeper_default hermesd:unix_stream_socket connectto;
+allow hal_gatekeeper_default hermes_socket:sock_file write;
