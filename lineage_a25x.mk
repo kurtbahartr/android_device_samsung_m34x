@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/a25x/device.mk)
 
 ## Boot Animation
-TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
