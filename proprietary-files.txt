@@ -80,6 +80,34 @@ vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.ha
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
+# Hermes
+vendor/bin/hermesd
+vendor/bin/hw/vendor.samsung.hardware.security.hermes-service
+vendor/etc/init/hermesd.rc
+vendor/etc/init/vendor.samsung.hardware.security.hermes.rc
+vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml
+vendor/lib/libhermes.so
+vendor/lib64/libhermes.so
+vendor/lib64/libhermes_bdbridge.so
+vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk_platform.so
+
+# Hermes dependencies
+vendor/lib64/libhwvault.so
+vendor/lib64/libshctrl.so
+vendor/lib64/libisosechw.so
+vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
+vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
+
+# Weaver
+vendor/etc/vintf/manifest/iweaver_v1_manifest.xml
+vendor/lib64/android.hardware.weaver@1.0.so
+
+# Weaver firmware
+vendor/etc/secnvm/k250a_41000001_1.img
+vendor/etc/secnvm/k250a_41000003_0.img
+vendor/etc/secnvm/k250a_41000005_c.img
+vendor/firmware/secnvm/k250a_fw_image.manifest
+
 # Ramdisk firmware
 vendor_ramdisk/vendor/firmware/gt9895_a25x.bin
 vendor_ramdisk/vendor/firmware/ft3519_a25x.bin
