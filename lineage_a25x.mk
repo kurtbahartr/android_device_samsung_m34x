@@ -38,3 +38,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="a25xdxx-user 15 AP3A.240905.015.A2 A256EXXU7CYE1 release-keys" \
+    BuildFingerprint=samsung/a25xdxx/essi:15/AP3A.240905.015.A2/A256EXXU7CYE1:user/release-keys \
+    DeviceProduct=a25xdxx \
+    SystemName=a25xdxx
