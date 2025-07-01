@@ -29,6 +29,12 @@ DEVICE_PATH := device/samsung/a25x
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/configs/vintf/android.hardware.nfc@1.2-service.st.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_ENFORCE_RRO_TARGETS += *

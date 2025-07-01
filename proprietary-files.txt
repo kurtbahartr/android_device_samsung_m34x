@@ -75,6 +75,7 @@ vendor/firmware/setfile_gc02m1.bin
 vendor/firmware/setfile_hi1339.bin
 vendor/firmware/setfile_imx258.bin
 vendor/firmware/setfile_jn1.bin
+vendor/firmware/nfc/st21nfc_fw.bin
 vendor/firmware/swcnr_SAK2L4.json
 vendor/firmware/tfa9878.bin
 vendor/firmware/tfa98xx.cnt
@@ -103,6 +104,10 @@ vendor/lib64/libshctrl.so
 vendor/lib64/libisosechw.so
 vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
+
+## NFC
+vendor/etc/nfc/st21nfc_conf.txt
+vendor/lib64/nfc_nci.st21nfc.st.so
 
 # Weaver
 vendor/etc/vintf/manifest/iweaver_v1_manifest.xml
