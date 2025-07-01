@@ -64,6 +64,9 @@
     <!-- The default peak refresh rate. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
 
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps">true</bool>
+
     <!-- Cutout location. -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -22.4 V 27.37777777777778 H 22.4 V 0 H 0 Z @dp</string>
 </resources>
