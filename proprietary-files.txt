@@ -1,8 +1,5 @@
 # Proprietary files - from Samsung package version A256EXXU7CYE1, unless pinned
 
-## Audio - Dolby Atmos
-vendor/lib/soundfx/libswdap.so
-
 # Audio Firmware
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abov/a96t396_a25x_main.bin
