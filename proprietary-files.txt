@@ -1,5 +1,8 @@
 # Proprietary files - from Samsung package version A256EXXU7CYE1, unless pinned
 
+# Audio - SoundBooster
+vendor/etc/SoundBoosterParam.txt
+
 # Audio Firmware
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abov/a96t396_a25x_main.bin
